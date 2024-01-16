@@ -1,0 +1,16 @@
+//Subtraction of two numbers
+
+#include<stdio.h>
+
+void main() 
+{
+    float a, b, res;
+
+    printf("Enter two numbers:");
+    scanf("%f %f",&a, &b);
+
+    res = a-b;
+
+    printf("subtraction of two number is:");
+    scanf("%f",&res);
+}
